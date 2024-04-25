@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Evidencias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #001f3f; 
+            padding: 20px;
+            position: fixed; 
+            left: 0; 
+            top: 0; 
+            bottom: 0;
+            z-index: 1; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 1s ease forwards; 
+            width: 150px;
+            height: 100%;
+            border-top-right-radius: 20px; 
+            border-bottom-right-radius: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 16px;
+            transition: background-color 0.3s ease; 
+            border-radius: 20px; 
+        }
+
+        nav ul li a:hover {
+            background-color: #003366; 
+        }
+
+        .container {
+            margin-left: 150px; /* Ajustamos el margen para que la imagen no esté cubierta por la barra de navegación */
+            padding-top: 60px; /* Agregamos un espacio superior para que no quede debajo de la barra de navegación */
+            display: flex;
+            flex-wrap: wrap; /* Permite que los elementos se ajusten automáticamente */
+            justify-content: center; /* Centra los elementos horizontalmente */
+        }
+
+        .background-image {
+            width: 100%;
+            max-width: 100%; /* Ajustamos el ancho máximo para que no se desborde */
+            height: auto; /* Cambiamos la altura a automática para que la imagen se ajuste proporcionalmente */
+            object-fit: cover; /* Para que la imagen cubra todo el espacio */
+            display: block;
+            margin: 0; /* Eliminamos los márgenes */
+        }
+
+        h1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 36px;
+            color: #000;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 2;
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Sobre_mi.html">FOTOGRAFIA</a></li>
+                <li><a href="trabajosporfavor.html">PINTURA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="image-container">
+            <img class="background-image" src="inicio 2.jpg" alt="">
+        </div>
+        
+        <div class="image-container">
+            <img class="background-image" src="inicio6.jpg" alt="">
+			</div>
+		
+		<div class="image-container">
+            <img class="background-image" src="Inicio pintura.gif" alt="">
+        </div>
+		
+        <div class="image-container">
+            <img class="background-image" src="pintura2.gif" alt="">
+        </div>
+		
+		
+	  <div class="image-container">
+            <img class="background-image" src="pinrura1.gif" alt=""><
+        </div>
+		
+		
+		<div class="image-container">
+            <img class="background-image" src="inicio 2.jpg" alt="">
+        </div>
+    </div>
+	
+        
+      
+	
+	
+	
+    <a href="javascript:history.back()" class="back-button">&#8592; </a>
+
+</body>
+</html>
